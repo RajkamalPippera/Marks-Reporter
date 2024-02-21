@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-size: 30px;
+}
+label{
+    font-size: 30px;
+    margin-right: 5px;
+
+}
+#inputvalue{
+    padding: 10px;
+    font-size: 25px;
+
+}
+button{
+    padding: 19px 25px;
+    background-color: rgb(26, 183, 250);
+    transition: 0.4s;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+button:active{
+    transform: scale(0.9);
+}
+h1{
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    text-shadow: 0px 0px 30px white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
