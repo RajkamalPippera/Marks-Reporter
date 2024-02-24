@@ -25,6 +25,15 @@ button{
     border: none;
     border-radius: 20px;
 }
+.resetbtn{
+    padding: 19px 25px;
+    background-color: rgb(26, 183, 250);
+    transition: 0.4s;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
 button:active{
     transform: scale(0.9);
 }
