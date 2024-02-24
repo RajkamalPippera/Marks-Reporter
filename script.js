@@ -22,4 +22,5 @@ let reset = document.querySelector(".resetbtn")
 reset.addEventListener("click",()=>{
     document.querySelector("#inputvalue").value = ""
     document.querySelector("h1").textContent = ""
+    document.querySelector("h1").style.backgroundColor = ""
 })
