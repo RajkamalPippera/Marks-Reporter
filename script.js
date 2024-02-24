@@ -18,3 +18,8 @@ btn.addEventListener("click",()=>{
         document.querySelector("h1").textContent = `Invaild input try again`
     }
 })
+let reset = document.querySelector(".resetbtn")
+reset.addEventListener("click",()=>{
+    document.querySelector("#inputvalue").value = ""
+    document.querySelector("h1").textContent = ""
+})
