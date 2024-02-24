@@ -24,6 +24,7 @@ button{
     font-size: 20px;
     border: none;
     border-radius: 20px;
+    margin-top: 20px;
 }
 .resetbtn{
     padding: 19px 25px;
